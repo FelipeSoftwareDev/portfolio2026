@@ -13,7 +13,7 @@ const Home = () => {
             <PlexusBackground />
 
             {/* Hero Section */}
-            <section className="hero-section">
+            <section className="hero-section" id="home">
                 <div className="hero-content">
                     <div className="hero-text">
                         <p className="greeting">{t.hero.greeting}</p>
@@ -60,7 +60,7 @@ const Home = () => {
             </section>
 
             {/* About Section */}
-            <section className="about-section">
+            <section className="about-section" id="about">
                 <GlassCard>
                     <h2 className="section-title">{t.about.title}</h2>
                     <p className="section-text">
@@ -70,7 +70,7 @@ const Home = () => {
             </section>
 
             {/* Hard Skills Section */}
-            <section className="skills-section">
+            <section className="skills-section" id="skills">
                 <GlassCard>
                     <h2 className="section-title">{t.skills.title}</h2>
                     <p className="section-text">
@@ -98,7 +98,7 @@ const Home = () => {
             </section>
 
             {/* Projects Section */}
-            <section className="projects-section">
+            <section className="projects-section" id="projects">
                 <h2 className="section-title">{t.projects.title}</h2>
                 <div className="projects-grid">
                     <GlassCard className="project-card">
@@ -143,7 +143,7 @@ const Home = () => {
             </section>
 
             {/* Contact Section */}
-            <section className="contact-section">
+            <section className="contact-section" id="contact">
                 <GlassCard className="contact-card">
                     <h2 className="section-title">{t.contact.title}</h2>
                     <p className="section-text">

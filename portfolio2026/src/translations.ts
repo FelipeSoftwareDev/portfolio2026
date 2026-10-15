@@ -1,5 +1,12 @@
 export const translations = {
     en: {
+        nav: {
+            home: "Home",
+            about: "About",
+            skills: "Skills",
+            projects: "Projects",
+            contact: "Contact"
+        },
         hero: {
             greeting: "Hi, I'm Felipe",
             title1: "Fullstack",
@@ -53,6 +60,13 @@ export const translations = {
         }
     },
     pt: {
+        nav: {
+            home: "Início",
+            about: "Sobre",
+            skills: "Habilidades",
+            projects: "Projetos",
+            contact: "Contato"
+        },
         hero: {
             greeting: "Oi, eu sou o Felipe",
             title1: "Desenvolvedor",

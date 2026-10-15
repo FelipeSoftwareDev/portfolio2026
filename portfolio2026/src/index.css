@@ -3,6 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
+  /* altura real da navbar fixa (padding 1.5rem*2 + conteudo ~2rem) */
+  --nav-height: 5rem;
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #000000;
@@ -24,8 +27,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }

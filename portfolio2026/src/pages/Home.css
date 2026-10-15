@@ -4,13 +4,23 @@
     position: relative;
 }
 
+/* o scroll suave da navbar nao pode parar com o titulo por tras dela */
+.home section {
+    scroll-margin-top: var(--nav-height);
+}
+
 /* Hero Section */
 .hero-section {
     min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
+    /* `safe center` impede que o conteudo transborde para cima quando a
+       altura da viewport e menor que o hero (notebooks/telas baixas) */
     justify-content: center;
-    padding: 2rem;
+    justify-content: safe center;
+    /* reserva a altura da navbar fixa: o hero nunca passa por tras dela */
+    padding: calc(var(--nav-height) + 1rem) 2rem 4rem;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -278,6 +288,10 @@
 }
 
 @media (max-width: 768px) {
+    .hero-section {
+        padding: calc(var(--nav-height) + 0.5rem) 1.5rem 3rem;
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
         gap: 2rem;
