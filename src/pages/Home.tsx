@@ -43,18 +43,18 @@ const Home = () => {
                     </GlassCard>
 
                     <GlassCard className="stat-card">
-                        <h3 className="stat-number">40+</h3>
-                        <p className="stat-label">{t.stats.projects}</p>
+                        <h3 className="stat-number">10+</h3>
+                        <p className="stat-label">{t.stats.technologies}</p>
                     </GlassCard>
 
                     <GlassCard className="stat-card">
-                        <h3 className="stat-number">85+</h3>
-                        <p className="stat-label">{t.stats.clients}</p>
+                        <h3 className="stat-number">1</h3>
+                        <p className="stat-label">{t.stats.saas}</p>
                     </GlassCard>
 
                     <GlassCard className="stat-card">
-                        <h3 className="stat-number">12</h3>
-                        <p className="stat-label">{t.stats.awards}</p>
+                        <h3 className="stat-number">∞</h3>
+                        <p className="stat-label">{t.stats.coffee}</p>
                     </GlassCard>
                 </div>
             </section>

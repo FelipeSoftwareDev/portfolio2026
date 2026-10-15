@@ -17,9 +17,9 @@ export const translations = {
         },
         stats: {
             experience: "Years Experience",
-            projects: "Projects Completed",
-            clients: "Happy Clients",
-            awards: "Awards Won"
+            technologies: "Technologies Mastered",
+            saas: "Own SaaS",
+            coffee: "Coffee Consumed"
         },
         about: {
             title: "About Me",
@@ -77,9 +77,9 @@ export const translations = {
         },
         stats: {
             experience: "Anos de Experiência",
-            projects: "Projetos Completos",
-            clients: "Clientes Satisfeitos",
-            awards: "Prêmios Ganhos"
+            technologies: "Tecnologias Dominadas",
+            saas: "SaaS Próprio",
+            coffee: "Café Consumido"
         },
         about: {
             title: "Sobre Mim",
